@@ -5,7 +5,7 @@ from pygame import mixer
 
 
 class MP:
-    def _init_(self, win):
+    def __init__(self, win):
         win.geometry('300x300')
         win.title('MP3 PLAYER')
         win.resizable(0, 0)   
